@@ -27,17 +27,6 @@
   
 
   
-      ,"page1": {
-          "title": "About Me",
-          "content": ". I am a second year CS student and a Machine Learning and Deep Learning Practitioner. .",
-          "url": "https://thinamxx.github.io/thinam.ai/about/",
-          "relUrl": "/about/",
-          "date": ""
-      }
-      
-  
-
-  
 
   
   
@@ -59,7 +48,7 @@
   
 
   
-      ,"page10": {
+      ,"page9": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://thinamxx.github.io/thinam.ai/robots.txt",
