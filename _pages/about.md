@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /about/
 title: About Me
+permalink: /about/
 ---
 
 ### Thinam Tamang
