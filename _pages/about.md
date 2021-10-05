@@ -4,8 +4,6 @@ title: About Me
 permalink: /about/
 ---
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+![Image](https://github.com/ThinamXx/thinam.ai/blob/master/images/Thinam%20100.jpg)
 
-
-
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+I am a second year CS student and a Machine Learning and Deep Learning Practitioner. 
