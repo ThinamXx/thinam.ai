@@ -1,3 +1,9 @@
+---
+layout: page
+permalink: /about/
+title: About Me
+---
+
 ### Thinam Tamang
 
 I am a second year Computer Science and Information Technology student at TU. I am working as a Research Assistant at [**Center of Data Mining and Bioinformatics**](https://mt.mahidol.ac.th/en/departments/center-of-data-mining-and-biomedical-informatics-2/). I have a passion to work in the field of Machine Learning and Deep Learning.  
