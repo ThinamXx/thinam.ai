@@ -1,14 +1,16 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-I am a second year Computer Science and Information Technology student at TU. I am working as a Research Assistant at [**Center of Data Mining and Bioinformatics**](https://mt.mahidol.ac.th/en/departments/center-of-data-mining-and-biomedical-informatics-2/). I have a passion to work in the field of Machine Learning and Deep Learning.  
+![Image](https://github.com/ThinamXx/thinam.ai/blob/master/images/Thinam%20100.jpg)
 
-Previously, I had worked as an NLP Engineer at [**Kharpann Enterprises**](https://www.linkedin.com/company/kharpann/). My research interests are Natural Language Processing and Computer Vision. 
+I am a second year Computer Science and Information Technology student at TU. My research interests are in Natural Language Processing and Computer Vision. I am passionate about building intelligent systems with the help of Machine Learning and Deep Learning. 
 
-## **Publications**  
+I am working as a Research Assistant at [**Center of Data Mining and Bioinformatics**](https://mt.mahidol.ac.th/en/departments/center-of-data-mining-and-biomedical-informatics-2/). I have also worked as an NLP Engineer at Kharpann Enterprises. My primary tools are Python, PyTorch and Fastai. I'm learning from online materials and reading books of Machine Learning.  
+
+### **Publications**  
 Toward insights on antimicrobial selectivity of host defense peptides via machine learning model interpretation  
 Hao Li, Thinam Tamang, Chanin Nantasenamat  
 *Elsevier, 2021*
