@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-![Image](https://github.com/ThinamXx/thinam.ai/blob/master/_pages/Thinam%201002.jpg)
+![Image](https://github.com/ThinamXx/thinam.ai/blob/master/images/Thinam%201002.jpg?raw=true)
 
 I am a second year Computer Science and Information Technology student at TU. My research interests are in Natural Language Processing and Computer Vision. I am passionate about building intelligent systems with the help of Machine Learning and Deep Learning. 
 
