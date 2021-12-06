@@ -14,7 +14,7 @@ permalink: /ComputerVision/
 
 ![Image](https://github.com/ThinamXx/thinam.ai/blob/master/images/ComputerVision.jpg?raw=true)
 
-# Image Classification Fundamentals
+### Image Classification
 
 1\. **Image Classification** is the task of using computer vision and machine learning algorithms to extract meaning from an image. It is the task of assigning a label to an image from a predefined set of categories.
 
