@@ -1,3 +1,19 @@
+---
+title: Image Classification Fundamentals
+description: I am sharing the basic notes about Image Classification Fundamentals. 
+toc: false
+comments: true
+image: images/ComputerVision.jpg
+author: Thinam Tamang
+layout: post
+categories: [machine learning, natural language processing, 66DaysOfData, notes]
+hide: false
+search_exclude: true
+permalink: /ComputerVision/
+---
+
+![Image](https://github.com/ThinamXx/thinam.ai/blob/master/images/ComputerVision.jpg?raw=true)
+
 # Image Classification Fundamentals
 
 1\. **Image Classification** is the task of using computer vision and machine learning algorithms to extract meaning from an image. It is the task of assigning a label to an image from a predefined set of categories.
@@ -22,7 +38,7 @@
 
 11\. The **gradient descent** method is an iterative optimization algorithm that operates over a loss landscape also called and optimization surface. Also, **gradient descent** refers to the process of attempting to optimize the parameters for low loss and high classification accuracy via an iterative process of taking a step in the direction that minimize loss.
 
-<img src="/images/media/image1.png" style="width:3.07335in;height:2.73997in" alt="GradientDescent.PNG" />
+![Image](https://github.com/ThinamXx/thinam.ai/blob/master/images/media/image1.png?raw=true)
 
 Figure: The **naive loss** visualized as a 2D plot.
 
@@ -36,7 +52,7 @@ As shown in figure, the loss landscape has many peaks and valleys. Each peak is 
 
 13\. Many strategies used in machine learning are explicitly designed to reduce the test error, possibly at the expense of increased training error. These strategies are collectively known as **Regularization**. – *Goodfellow*.
 
-<img src="/images/media/image2.png" style="width:3.75052in;height:3.6776in" alt="Regularization.PNG" />
+![Image](https://github.com/ThinamXx/thinam.ai/blob/master/images/media/image2.png?raw=true)
 
 Figure: An example of model fitting.
 
