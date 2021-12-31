@@ -18,13 +18,13 @@ permalink: /Neural Networks/
 
 Neural networks are the building blocks of deep learning systems. A system is called a neural network if it contains a labeled, directed graph structure where each node in the graph performs some computation.
 
-[Image](https://github.com/ThinamXx/thinam.ai/blob/master/images/NN/image1.png?raw=true)
+![Image](https://github.com/ThinamXx/thinam.ai/blob/master/images/NN/image1.png?raw=true)
 
 Figure: A simple neural network that takes the weighted sum of inputs *x* and weights *w* which is then passed through the activation function to determine the output.
 
 ## Activation Functions
 
-[Image](https://github.com/ThinamXx/thinam.ai/blob/master/images/NN/image2.png?raw=true) 
+![Image](https://github.com/ThinamXx/thinam.ai/blob/master/images/NN/image2.png?raw=true) 
 
 **Sigmoid Function** is continuous and differentiable everywhere. It is symmetric around the y-axis. The outputs of the sigmoid are not zero centered. Saturated neurons essentially kill the gradient, since the delta of the gradient will be extremely small.
 
