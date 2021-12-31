@@ -12,7 +12,7 @@ search_exclude: true
 permalink: /Neural Networks/
 ---
 
-![Image](https://github.com/ThinamXx/thinam.ai/blob/master/images/ComputerVision.jpg?raw=true)
+![Image](https://github.com/ThinamXx/thinam.ai/blob/master/images/Neural-Network.png?raw=true)
 
 ## Neural Networks
 
