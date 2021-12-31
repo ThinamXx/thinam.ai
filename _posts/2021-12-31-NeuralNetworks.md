@@ -1,14 +1,30 @@
+---
+title: Neural Networks & CNNs
+description: I am sharing the basic notes about Neural Networks and Convolutional Neural Networks. 
+toc: false
+comments: true
+image: images/ComputerVision.jpg
+author: Thinam Tamang
+layout: post
+categories: [machine learning, natural language processing, 66DaysOfData, notes, neural networks]
+hide: false
+search_exclude: true
+permalink: /Neural Networks/
+---
+
+![Image](https://github.com/ThinamXx/thinam.ai/blob/master/images/ComputerVision.jpg?raw=true)
+
 ## Neural Networks
 
 Neural networks are the building blocks of deep learning systems. A system is called a neural network if it contains a labeled, directed graph structure where each node in the graph performs some computation.
 
-<img src="name//media/image1.png" style="width:4.4277in;height:3.19836in" alt="Networks.PNG" />
+[Image](https://github.com/ThinamXx/thinam.ai/blob/master/images/NN/image1.png?raw=true)
 
 Figure: A simple neural network that takes the weighted sum of inputs *x* and weights *w* which is then passed through the activation function to determine the output.
 
 ## Activation Functions
 
-<img src="name//media/image2.png" style="width:6.5in;height:5.08403in" alt="Activation.PNG" />
+[Image](https://github.com/ThinamXx/thinam.ai/blob/master/images/NN/image2.png?raw=true) 
 
 **Sigmoid Function** is continuous and differentiable everywhere. It is symmetric around the y-axis. The outputs of the sigmoid are not zero centered. Saturated neurons essentially kill the gradient, since the delta of the gradient will be extremely small.
 
