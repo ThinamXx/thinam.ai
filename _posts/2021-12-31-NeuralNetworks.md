@@ -3,7 +3,7 @@ title: Neural Networks & CNNs
 description: I am sharing the basic notes about Neural Networks and Convolutional Neural Networks. 
 toc: false
 comments: true
-image: images/ComputerVision.jpg
+image: images/Neural-Network.png
 author: Thinam Tamang
 layout: post
 categories: [machine learning, natural language processing, 66DaysOfData, notes, neural networks]
