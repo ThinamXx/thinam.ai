@@ -60,4 +60,4 @@ It accepts an input volume of size *W<sub>input </sub>* *X H<sub>input</sub> X D
 
 3.  *D<sub>output</sub> = K*
 
-> Here, *K* is the number of filters, which when used for convolution yields receptive field *F*. *S* is the stride and *P* is the amount of zero-padding.
+Here, *K* is the number of filters, which when used for convolution yields receptive field *F*. *S* is the stride and *P* is the amount of zero-padding.
