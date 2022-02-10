@@ -4,21 +4,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Neural Networks &amp; CNNs | THINAM TAMANG</title>
+<title>Pattern Recognition &amp; ML | THINAM TAMANG</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Neural Networks &amp; CNNs" />
+<meta property="og:title" content="Pattern Recognition &amp; ML" />
 <meta name="author" content="Thinam Tamang" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="I am sharing the basic notes about Neural Networks and Convolutional Neural Networks." />
-<meta property="og:description" content="I am sharing the basic notes about Neural Networks and Convolutional Neural Networks." />
+<meta name="description" content="I am sharing the basic notes about Pattern Recognition and Machine Learning." />
+<meta property="og:description" content="I am sharing the basic notes about Pattern Recognition and Machine Learning." />
 <link rel="canonical" href="https://thinamxx.github.io/thinam.ai/Neural%20Networks/" />
 <meta property="og:url" content="https://thinamxx.github.io/thinam.ai/Neural%20Networks/" />
 <meta property="og:site_name" content="THINAM TAMANG" />
-<meta property="og:image" content="https://thinamxx.github.io/thinam.ai/images/AI.jpg" />
+<meta property="og:image" content="https://thinamxx.github.io/thinam.ai/images/Pattern.jpg" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-12-31T00:00:00-06:00" />
+<meta property="article:published_time" content="2022-02-10T00:00:00-06:00" />
 <script type="application/ld+json">
-{"url":"https://thinamxx.github.io/thinam.ai/Neural%20Networks/","@type":"BlogPosting","headline":"Neural Networks &amp; CNNs","dateModified":"2021-12-31T00:00:00-06:00","datePublished":"2021-12-31T00:00:00-06:00","image":"https://thinamxx.github.io/thinam.ai/images/AI.jpg","author":{"@type":"Person","name":"Thinam Tamang"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://thinamxx.github.io/thinam.ai/Neural%20Networks/"},"description":"I am sharing the basic notes about Neural Networks and Convolutional Neural Networks.","@context":"https://schema.org"}</script>
+{"url":"https://thinamxx.github.io/thinam.ai/Neural%20Networks/","@type":"BlogPosting","headline":"Pattern Recognition &amp; ML","dateModified":"2022-02-10T00:00:00-06:00","datePublished":"2022-02-10T00:00:00-06:00","image":"https://thinamxx.github.io/thinam.ai/images/Pattern.jpg","author":{"@type":"Person","name":"Thinam Tamang"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://thinamxx.github.io/thinam.ai/Neural%20Networks/"},"description":"I am sharing the basic notes about Pattern Recognition and Machine Learning.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/thinam.ai/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://thinamxx.github.io/thinam.ai/feed.xml" title="THINAM TAMANG" /><link rel="shortcut icon" type="image/x-icon" href="/thinam.ai/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -89,15 +89,15 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Neural Networks &amp; CNNs</h1><p class="page-description">I am sharing the basic notes about Neural Networks and Convolutional Neural Networks.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-12-31T00:00:00-06:00" itemprop="datePublished">
-        Dec 31, 2021
+    <h1 class="post-title p-name" itemprop="name headline">Pattern Recognition &amp; ML</h1><p class="page-description">I am sharing the basic notes about Pattern Recognition and Machine Learning.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-02-10T00:00:00-06:00" itemprop="datePublished">
+        Feb 10, 2022
       </time>• 
           <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span class="p-author h-card" itemprop="name">Thinam Tamang</span></span>
        • <span class="read-time" title="Estimated read time">
     
     
-      2 min read
+      4 min read
     
 </span></p>
 
@@ -125,66 +125,59 @@ window.onload = wrap_img;
     </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p><img src="https://github.com/ThinamXx/thinam.ai/blob/master/images/AI.jpg?raw=true" alt="Image" /></p>
+    <p><img src="https://github.com/ThinamXx/thinam.ai/blob/master/images/Pattern.jpg?raw=true" alt="Image" /></p>
 
-<h2 id="neural-networks">Neural Networks</h2>
+<h2 id="introduction">Introduction</h2>
 
-<p>Neural networks are the building blocks of deep learning systems. A system is called a neural network if it contains a labeled, directed graph structure where each node in the graph performs some computation.</p>
+<p>The field of <strong>pattern recognition</strong> is concerned with the automatic discovery of regularities in data through the use of computer algorithms and with the use of these regularities to take actions such as classifying the data into different categories. <strong>Generalization,</strong> the ability to categorize correctly new examples that differ from those used for training is a central goal in <strong>pattern recognition.</strong></p>
 
-<p><img src="https://github.com/ThinamXx/thinam.ai/blob/master/images/NN/image1.png?raw=true" alt="Image" /></p>
+<p>Applications in which the training data comprises examples of the input vectors with their corresponding target vectors are known as <strong>supervised learning</strong> problems. The cases such as the digit recognition, in which the aim is to assign each input vector to one of a finite number of discrete categories, are called <strong>classification.</strong> If the desired output consists of one or more continuous variables, then the task is called <strong>regression.</strong></p>
 
-<p>Figure: A simple neural network that takes the weighted sum of inputs <em>x</em> and weights <em>w</em> which is then passed through the activation function to determine the output.</p>
+<p>The pattern recognition problems in which the training data consists of a set of input vectors x without any corresponding target values are called <strong>unsupervised learning</strong> problems. The goal in such <strong>unsupervised learning</strong> problems may be to discover groups of similar examples within the data, where it is called <strong>clustering</strong>, or to determine the distribution of data within the input space, known as <strong>density estimation,</strong> or to project the data from a high-dimensional space down to two or three dimensions for the purpose of visualization.</p>
 
-<h2 id="activation-functions">Activation Functions</h2>
+<p>The technique of <strong>reinforcement learning</strong> is concerned with the problem of finding suitable actions to take in a given situation in order to maximize a reward. A general feature of <strong>reinforcement learning</strong> is the trade-off between <strong>exploration,</strong> in which the system tries out new kinds of actions to see how effective they are, and <strong>exploitation,</strong> in which the system makes use of actions that are known to yield a high reward.</p>
 
-<p><img src="https://github.com/ThinamXx/thinam.ai/blob/master/images/NN/image2.png?raw=true" alt="Image" /></p>
+<h2 id="probability-theory">Probability Theory</h2>
 
-<p><strong>Sigmoid Function</strong> is continuous and differentiable everywhere. It is symmetric around the y-axis. The outputs of the sigmoid are not zero centered. Saturated neurons essentially kill the gradient, since the delta of the gradient will be extremely small.</p>
+<p>Probability theory provides a consistent framework for the quantification and manipulation of uncertainty. When combined with decision theory, it allows us to make optimal predictions given all the information available to us, even though that information may be incomplete or ambiguous.</p>
 
-<p><strong>Rectified Linear Unit (ReLU)</strong> is zero for negative inputs but increases linearly for positive inputs. The ReLU function is not saturable and is also extremely computationally efficient. ReLU is the most popular activation function used in deep learning and has stronger biological motivations.</p>
+<h2 id="the-rules-of-probability">The Rules of Probability</h2>
 
-<h2 id="feedforward-neural-networks">Feedforward Neural Networks</h2>
-
-<p>The neural networks architecture in which a connection between nodes is only allowed from nodes in layer <em>i</em> to nodes in layer <em>i + 1</em>, with no backward or inter-layer connections are called <strong>feedforward neural networks</strong>. When feedforward neural networks include feedback connections i.e. output connections that feed back into the inputs, are called <strong>recurrent neural networks</strong>.</p>
-
-<h2 id="backpropagation">Backpropagation</h2>
-
-<p><strong>Backpropagation</strong> is a generalization of the gradient descent algorithms that is specifically used to train multi-layer feedforward networks. The backpropagation algorithm consists of two phases:</p>
-
-<ol>
+<ul>
   <li>
-    <p>The forward pass where we pass our inputs through the network to obtain our output classifications.</p>
+    <p>Sum Rule: <em>p(X) =</em> $\sum_{Y}^{}{p(X,\ Y)}$</p>
   </li>
   <li>
-    <p>The backward pass i.e. weight update phase where we compute the gradient of the loss function and use the information to iteratively apply the chain rule to update the weights in neural networks.</p>
+    <p>Product Rule: <em>p(X, Y) = p(Y / X)p(X)</em></p>
   </li>
-</ol>
+</ul>
 
-<p>The activation functions inside the network are differentiable, allowing the chain rule to be applied. Any layers inside the network that require updates to their weights and parameters must be compatible with backpropagation.</p>
+<p>Here, <em>p(X, Y)</em> is a <strong>joint probability</strong> and is verbalized as “the probability of X and Y”. Similarly, the quantity <em>p(Y/X)</em> is a <strong>conditional probability</strong> and is verbalized as “the probability of Y given X”, where the quantity <em>p(X)</em> is a <strong>marginal probability</strong> and is verbalized as “the probability of X”.</p>
 
-<p><strong>One Hot Encoding</strong> is the process of transforming integer labels into vector labels, where the index in the vector for label is set to 1 and 0 otherwise.</p>
+<h2 id="bayes-theorem">Bayes’ Theorem</h2>
 
-<h2 id="convolutions">Convolutions</h2>
+<p>From the product rule, together with the symmetry property <em>p(X, Y) = p(Y, X)</em>, we obtain the following relationship between conditional probabilities which is called <strong>Bayes’ theorem</strong> which plays a central role in pattern recognition and machine learning. Using the sum rule, the denominator in Bayes’ theorem can be expressed in terms of the quantities appearing in the numerator as being the normalization constant required ensuring that the sum of the conditional probability on the left-hand side over all values of <em>Y</em> equals one.</p>
 
-<p><strong>Convolutions</strong> are one of the most critical, fundamental building-blocks in computer vision and image processing. <strong>Convolution</strong> is an element-wise multiplication of two matrices followed by a sum.</p>
-
-<h2 id="convolutional-layers">Convolutional Layers</h2>
-
-<p>It accepts an input volume of size <em>W<sub>input </sub></em> <em>X H<sub>input</sub> X D<sub>input </sub></em>.The input sizes are normally square, so it’s common to see <em>W<sub>input</sub> = H<sub>input </sub></em>. The number of filters <em>K</em> controls the depth of the output volume. The output of the convolutional layer is <em>W<sub>output</sub> X H<sub>output </sub></em> <em>X D<sub>output </sub></em>, where:</p>
-
-<ol>
+<ul>
   <li>
-    <p><em>W<sub>output</sub> = ((W<sub>input</sub> - F + 2P)/S) + 1.</em></p>
+    <p><em>p(Y / X) =</em> $\frac{p\left( \frac{X}{Y} \right)p(X)}{p(X)}$</p>
   </li>
   <li>
-    <p><em>H<sub>output</sub> = ((H<sub>input</sub> - F + 2P)/S) + 1.</em></p>
+    <p><em>p(X) =</em> $\sum_{Y}^{}{p\left( \frac{X}{Y} \right)p(Y)}$</p>
   </li>
-  <li>
-    <p><em>D<sub>output</sub> = K</em></p>
-  </li>
-</ol>
+</ul>
 
-<p>Here, <em>K</em> is the number of filters, which when used for convolution yields receptive field <em>F</em>. <em>S</em> is the stride and <em>P</em> is the amount of zero-padding.</p>
+<h2 id="model-selection">Model Selection</h2>
+
+<p>In the maximum likelihood approach, the performance on the training set is not a good indicator of predictive performance on unseen data due to the problem of over-fitting. If data is plentiful, the one approach is simply to use some of the available data to train a range of models, or a given model with a range of values for its complexity parameters, and then to compare them on independent data, sometimes called a <strong>validation set,</strong> and select the one having the best predictive performance. However, in many applications, the data for training and testing will be limited, and in order to build good models, we wish to use as much of the available data as possible for training. If the validation set is small, it will give a relatively noisy estimate of predictive performance. One solution to this problem is to use <strong>cross-validation.</strong> This allows a proportion <em>(S – 1) / S</em> of the available data to be used for training while making use of all of the data to assess performance.</p>
+
+<h2 id="decision-theory">Decision Theory</h2>
+
+<p>If we have an input vector <strong>x</strong> together with a corresponding vector <strong>t</strong> of target variables, our goal is to predict <strong>t</strong> given a new value for <strong>x.</strong> For regression problems, <strong>t</strong> will comprise continuous variables, whereas for classification problems, <strong>t</strong> will represent class labels.</p>
+
+<h2 id="minimizing-loss-function">Minimizing Loss Function</h2>
+
+<p>Loss function is also called a cost function, which is a single, overall measure of loss incurred in taking any of the available decisions or actions. Our goal is then to minimize the total loss incurred.</p>
 
   </div><!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js"
