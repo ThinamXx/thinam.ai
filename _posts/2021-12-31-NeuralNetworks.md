@@ -3,7 +3,7 @@ title: Neural Networks & CNNs
 description: I am sharing the basic notes about Neural Networks and Convolutional Neural Networks. 
 toc: false
 comments: true
-image: images/Neural-Network.png
+image: images/AI.png
 author: Thinam Tamang
 layout: post
 categories: [machine learning, natural language processing, 66DaysOfData, notes, neural networks]
@@ -12,7 +12,7 @@ search_exclude: true
 permalink: /Neural Networks/
 ---
 
-![Image](https://github.com/ThinamXx/thinam.ai/blob/master/images/Neural-Network.png?raw=true)
+![Image](https://github.com/ThinamXx/thinam.ai/blob/master/images/AI.jpg?raw=true)
 
 ## Neural Networks
 
