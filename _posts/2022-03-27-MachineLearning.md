@@ -1,3 +1,19 @@
+---
+title: Machine Learning
+description: I am sharing the basic notes about Machine Learning. 
+toc: false
+comments: true
+image: images/ML.png
+author: Thinam Tamang
+layout: post
+categories: [deep learning, 66DaysOfData, machine learning, bias]
+hide: false
+search_exclude: true
+permalink: /Machine Learning/
+---
+
+![Image](https://github.com/ThinamXx/thinam.ai/blob/master/images/ML.jpg?raw=true)
+
 ### **Machine Learning**
 
 Machine learning can be defined as the process of solving a practical problem by collecting a dataset, and algorithmically training a **statistical model** based on that dataset.
