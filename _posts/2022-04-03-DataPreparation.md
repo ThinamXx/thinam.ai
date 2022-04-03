@@ -1,5 +1,5 @@
 ---
-title: Data Preparation
+title: Data
 description: I am sharing the basic notes about Data Preparation. 
 toc: false
 comments: true
