@@ -1,3 +1,19 @@
+---
+title: Data Preparation
+description: I am sharing the basic notes about Data Preparation. 
+toc: false
+comments: true
+image: images/DataPrep.png
+author: Thinam Tamang
+layout: post
+categories: [machine learning, data preparation, sampling, data versioning]
+hide: false
+search_exclude: true
+permalink: /Data Preparation/
+---
+
+![Image](https://github.com/ThinamXx/thinam.ai/blob/master/images/DataPrep.png?raw=true)
+
 ### **Outliers**
 
 Outliers are examples that look dissimilar to the majority of examples from the dataset. Dissimilarity is measured by some distance metric, such as **Euclidean distance.** Deleting outliers from the training dataset is not considered scientifically significant, especially in small datasets. In the big data context, outliers don’t typically have a significant impact on the model.
@@ -9,13 +25,9 @@ Data leakage, also known as target leakage, is a problem affecting several stage
 ### **What is Good Data**
 
 1.  Good data is informative.
-
 2.  Good data has good coverage.
-
 3.  Good data reflects real inputs.
-
 4.  Good data is unbiased.
-
 5.  Good data is not a result of a feedback loop.
 
 6.  Good data has consistent labels.
@@ -51,11 +63,8 @@ In **stratified sampling,** we first divide our dataset into groups called strat
 If data is held and updated in multiple places, we might need to keep track of versions. Versioning the data is also needed if we frequently update the model by collecting more data, especially in an automated way. Data versioning can be implemented in several levels of complexity.
 
 **Level 0: data is unversioned.**
-
 **Level 1: data is versioned as a snapshot at training time.**
-
 **Level 2: both data and code are versioned as one asset.**
-
 **Level 3: using or building a specialized data versioning solution.**
 
 ### **Data Lake**
